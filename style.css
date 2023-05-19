@@ -1,0 +1,132 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.container
+{
+	width:90%;
+	margin:0 auto;
+	padding-top:30px;
+	padding-left:20px;
+	height:700px;
+}
+.row
+{
+
+	display:flex;
+	flex-wrap:wrap;
+	padding-left:10px;
+}
+
+.col-1
+{
+	width:8.33%;
+	padding:0 15px;
+}
+.col-2
+{
+	width:16.66%;
+	padding:0 15px;
+}
+.col-3
+{
+	width:25%;
+	padding:0 15px;
+}
+.col-4
+{
+	width:33.33%;
+	padding:0 15px;
+}
+.col-5
+{
+	width:41.66%;
+	padding:0 15px;
+}
+.col-6
+{
+	width:50%;
+	padding:0 15px;
+}
+.col-7
+{
+	width:58.33%;
+	padding:0 15px;
+}
+.col-8
+{
+	width:66.66%;
+	padding:0 15px;
+}
+.col-9
+{
+	width:75%;
+	padding:0 15px;
+}
+.col-10
+{
+	width:83.33%;
+	padding:0 15px;
+}
+.col-11
+{
+	width:91.66%;
+	padding:0 15px;
+}
+.col-12
+{
+	width:100%;
+	padding:0 15px;
+}
+.images
+{
+	position:relative;
+	padding-left:15px;
+}
+.ch1
+{
+	position:absolute;
+	top:10%;
+	left:-100px;
+	z-index:-1;
+	
+}
+.ch2
+{
+	position:absolute;
+	top:30%;
+	right:0;
+	z-index:1;
+	padding:5px;
+}
+.pic-content
+{
+	display:flex;
+	padding-bottom:30px;
+	padding-top:30px;
+	justify-content:center;
+	align-content:center;
+	gap:3%;
+}
+.icon
+{
+	background-color:pink;
+	padding:10px;
+	border-radius:50%;
+}
+.but-icon
+{
+	margin:50px 0;
+}
+
+.but-icon a
+{
+	background-color:blue;
+	border-radius:5px;
+	padding:15px;
+	text-decoration:none;
+	font-size:20px;
+	color:white;	
+}
